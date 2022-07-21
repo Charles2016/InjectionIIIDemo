@@ -324,6 +324,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.huateng.InjectionIIIDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s x86_64";
 			};
 			name = Debug;
 		};
@@ -344,6 +345,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.huateng.InjectionIIIDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s x86_64";
 			};
 			name = Release;
 		};
