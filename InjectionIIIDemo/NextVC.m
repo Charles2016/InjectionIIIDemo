@@ -19,7 +19,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.testButton.hidden = NO;
-    [self.testButton setTitle:@"测试显示按钮222" forState:UIControlStateNormal];
+    [self.testButton setTitle:@"测试显示按钮`13222`" forState:UIControlStateNormal];
+    
+    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(22, 200, 100, 100)];
+    view.backgroundColor = UIColor.redColor;
+    [self.view addSubview:view];
+    
 }
 
 - (IBAction)backAction:(id)sender {

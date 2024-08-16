@@ -17,15 +17,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(injected) name:@"INJECTION_BUNDLE_NOTIFICATION" object:nil];
+    self.view.backgroundColor = UIColor.whiteColor;
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     button.frame = CGRectMake(20, 80 + 60, self.view.frame.size.width - 40, 40);
     button.tag = 20202203;
     button.titleLabel.font = [UIFont systemFontOfSize:13];
     [button setTitleColor:UIColor.blueColor forState:UIControlStateNormal];
-    [button setTitle:@"下一页11" forState:UIControlStateNormal];
+    [button setTitle:@"下一页ak1002g" forState:UIControlStateNormal];
     [button addTarget:self action:@selector(buttonAction:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button];
+    
+    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(100, 300, 100, 100)];
+    view.backgroundColor = UIColor.blueColor;
+    [self.view addSubview:view];
 }
 
 #pragma mark - buttonActions
@@ -34,6 +38,5 @@
     VC.modalPresentationStyle = UIModalPresentationOverFullScreen;
     [self presentViewController:VC animated:YES completion:nil];
 }
-
 
 @end

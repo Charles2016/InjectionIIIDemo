@@ -17,10 +17,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = UIColor.whiteColor;
-//#if DEBUG
-//    //InjectionIII调试代码
-//    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(injected) name:@"INJECTION_BUNDLE_NOTIFICATION" object:nil];
-//#endif
 }
+
+#if DEBUG
+//InjectionIII调试响应方法
+- (void)injected {
+    //重新加载view
+    [self loadView];
+    [self viewDidLoad];
+    [self viewWillLayoutSubviews];
+    [self viewWillAppear:YES];
+    [self viewDidDisappear:YES];
+}
+#endif
 
 @end

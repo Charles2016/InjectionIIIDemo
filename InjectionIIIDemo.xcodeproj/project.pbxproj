@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		43E591C1286BEB1D00A681C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E591C0286BEB1D00A681C7 /* AppDelegate.m */; };
-		43E591C4286BEB1D00A681C7 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E591C3286BEB1D00A681C7 /* SceneDelegate.m */; };
 		43E591C7286BEB1D00A681C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E591C6286BEB1D00A681C7 /* ViewController.m */; };
 		43E591CA286BEB1D00A681C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43E591C8286BEB1D00A681C7 /* Main.storyboard */; };
 		43E591CC286BEB2100A681C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43E591CB286BEB2100A681C7 /* Assets.xcassets */; };
@@ -16,7 +15,6 @@
 		43E591D2286BEB2100A681C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E591D1286BEB2100A681C7 /* main.m */; };
 		43E591E0286BEC3600A681C7 /* NextVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E591DE286BEC3600A681C7 /* NextVC.m */; };
 		43E591E1286BEC3600A681C7 /* NextVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43E591DF286BEC3600A681C7 /* NextVC.xib */; };
-		43E591E4286BEDA900A681C7 /* UIViewController+InjectionIII.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E591E3286BEDA800A681C7 /* UIViewController+InjectionIII.m */; };
 		43E591E7286BEDD400A681C7 /* SuperVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E591E6286BEDD400A681C7 /* SuperVC.m */; };
 /* End PBXBuildFile section */
 
@@ -24,8 +22,6 @@
 		43E591BC286BEB1D00A681C7 /* InjectionIIIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InjectionIIIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43E591BF286BEB1D00A681C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		43E591C0286BEB1D00A681C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		43E591C2286BEB1D00A681C7 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		43E591C3286BEB1D00A681C7 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		43E591C5286BEB1D00A681C7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		43E591C6286BEB1D00A681C7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		43E591C9286BEB1D00A681C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -36,8 +32,6 @@
 		43E591DD286BEC3600A681C7 /* NextVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NextVC.h; sourceTree = "<group>"; };
 		43E591DE286BEC3600A681C7 /* NextVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextVC.m; sourceTree = "<group>"; };
 		43E591DF286BEC3600A681C7 /* NextVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NextVC.xib; sourceTree = "<group>"; };
-		43E591E2286BEDA800A681C7 /* UIViewController+InjectionIII.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+InjectionIII.h"; sourceTree = "<group>"; };
-		43E591E3286BEDA800A681C7 /* UIViewController+InjectionIII.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+InjectionIII.m"; sourceTree = "<group>"; };
 		43E591E5286BEDD400A681C7 /* SuperVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperVC.h; sourceTree = "<group>"; };
 		43E591E6286BEDD400A681C7 /* SuperVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,14 +68,10 @@
 			children = (
 				43E591BF286BEB1D00A681C7 /* AppDelegate.h */,
 				43E591C0286BEB1D00A681C7 /* AppDelegate.m */,
-				43E591C2286BEB1D00A681C7 /* SceneDelegate.h */,
-				43E591C3286BEB1D00A681C7 /* SceneDelegate.m */,
 				43E591E5286BEDD400A681C7 /* SuperVC.h */,
 				43E591E6286BEDD400A681C7 /* SuperVC.m */,
 				43E591C5286BEB1D00A681C7 /* ViewController.h */,
 				43E591C6286BEB1D00A681C7 /* ViewController.m */,
-				43E591E2286BEDA800A681C7 /* UIViewController+InjectionIII.h */,
-				43E591E3286BEDA800A681C7 /* UIViewController+InjectionIII.m */,
 				43E591DD286BEC3600A681C7 /* NextVC.h */,
 				43E591DE286BEC3600A681C7 /* NextVC.m */,
 				43E591DF286BEC3600A681C7 /* NextVC.xib */,
@@ -166,12 +156,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				43E591E7286BEDD400A681C7 /* SuperVC.m in Sources */,
-				43E591E4286BEDA900A681C7 /* UIViewController+InjectionIII.m in Sources */,
 				43E591C7286BEB1D00A681C7 /* ViewController.m in Sources */,
 				43E591C1286BEB1D00A681C7 /* AppDelegate.m in Sources */,
 				43E591D2286BEB2100A681C7 /* main.m in Sources */,
 				43E591E0286BEC3600A681C7 /* NextVC.m in Sources */,
-				43E591C4286BEB1D00A681C7 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
